@@ -1,0 +1,27 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^1.1.1",
+    "astro": "^1.4.6",
+    "preact": "^10.6.5"
+  },
+  "overrides": {
+    "react": "npm:@preact/compat@latest",
+    "react-dom": "npm:@preact/compat@latest"
+  },
+  "devDependencies": {
+    "@unocss/astro": "^0.45.29",
+    "@unocss/preset-attributify": "^0.45.29",
+    "@unocss/preset-wind": "^0.45.29"
+  }
+}
